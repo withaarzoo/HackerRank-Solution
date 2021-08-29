@@ -4,11 +4,11 @@
 #include <stdlib.h>
 
 int main() {
-    int n, sum = 0;
+    int num, sum = 0;
     scanf("%d", &n)  ;
     
-    int *a = (int *)malloc(sizeof(int) * n);
-    for (int i = 0; i < n; i++)
+    int *a = (int *)malloc(sizeof(int) * num);
+    for (int i = 0; i < num; i++)
     {
         scanf("%d", &a[i]);
         sum = sum +a[i];
