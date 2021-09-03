@@ -14,5 +14,5 @@ int main() {
         sum = sum +a[i];
     }
     printf("%d", sum);
-    return 0;
+    return 0 ;
 }
